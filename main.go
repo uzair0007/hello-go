@@ -17,7 +17,7 @@ func main() {
 
 	// Converting the String to Byte Slice
 	s := golangexamples.String2Slice(golangexamples.GoLangString)
-	fmt.Println(s)
+	fmt.Println("Converted Slice: ", s)
 	
 	// Printing Concatenated String
 	fmt.Println("Concatenated String: ", golangexamples.ConcatSlice(s))
